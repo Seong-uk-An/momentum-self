@@ -1,0 +1,190 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.hide {
+    display: none;
+}
+
+#weather {
+    color: white;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-style: italic;
+}
+
+#clock {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+#login-form {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#name {
+    /* border: 1px solid black; */
+    height: 50px;
+    padding-top: 20px;
+    position: absolute;
+    top: 29%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#hello {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#edit-button {
+    margin-top: -5px;
+    transform: scaleX(-1);
+    color: gray;
+    float: right;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#edit-button:hover {
+    color: red;
+    width: 5;
+    height: 5;
+    text-align: center;
+    float: right;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#quotes {
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+}
+
+#quote {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#author {
+    margin-left: 8px;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#todo-form {
+    text-align: center;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+#todo-list {
+    right: 0%;
+    position: absolute;
+    top: 46%;
+    left: 28%;
+    line-height: 30px;
+    color: white;
+}
+
+/* li:nth-of-type(n+6) {
+    display: none;
+} */
+
+.todo-list {
+    height: 30px;
+}
+
+.todo-span {
+    line-height: 30px;
+    color: white;
+}
+
+.edit-todo {
+    transform: scaleX(-1);
+    color: white;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 10px;
+    line-height: 30px;
+    position: absolute;
+    right: 43%;
+}
+
+.edit-todo:hover {
+    color: red;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    line-height: 30px;
+    position: absolute;
+    font-size: 15px;
+    transform: translate(13%, 0%) scaleX(-1);
+}
+
+.delete-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1px;
+    line-height: 30px;
+    position: absolute;
+    right: 40%;
+}
+
+.delete-button:hover {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    line-height: 30px;
+    position: absolute;
+    font-size: 15px;
+    transform: translate(13%, 0%);
+}
+
+#black-bg {
+    position: absolute;
+    opacity: 50%;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    text-align: center;
+    top: 0px;
+    padding: 0;
+    margin: 0;
+}
+
+.bg-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+
+}
