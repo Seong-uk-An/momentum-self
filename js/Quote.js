@@ -28,7 +28,7 @@ const quotes = [{
     },
     {
         quote: "사각지대는 그 어떤 골키퍼도 막을 수 없다. 그러나, 나는 막을 수 있다.",
-        author: "레프 야신"
+        author: "레프 야신"
     },
     {
         quote: "축구는 몸이 아닌 머리로 하는 것이다.",
@@ -46,3 +46,15 @@ const currentQuote = quotes[Math.floor(Math.random() * quotes.length)]
 
 quote.innerText = currentQuote.quote
 author.innerText = `-${currentQuote.author}`
+
+
+
+const bgImages = document.createElement("img")
+const body = document.querySelector("body")
+
+const chosenImage = `${currentQuote.author}.jpeg`
+
+bgImages.src = `img/${chosenImage}`
+bgImages.classList.add("bg-image")
+
+body.appendChild(bgImages)

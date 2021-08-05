@@ -16,4 +16,10 @@ function onGeoError() {
 
 }
 
+navigator.permissions.query({
+    name: 'geolocation'
+}).then(function (result) {
+    console.log('result : ', result);
+});
+
 navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError)
